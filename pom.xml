@@ -11,12 +11,12 @@
 	</parent>
 	<groupId>com.wang.app</groupId>
 	<artifactId>mirana</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<packaging>hpi</packaging>
 
-	<name>Gitlab System Hook Plugin</name>
-	<url>https://wiki.jenkins-ci.org/display/JENKINS/SystemHookPlugin</url>
-	<description>Automatically create/destroy jobs when get hooks from Gitlab, without any manual settings. Only supports MAVEN projects now.</description>
+	<name>Gitlab Automatic Item Creator</name>
+	<url>https://wiki.jenkins-ci.org/display/JENKINS/gitlab-automatic-item-creator</url>
+	<description>Automatically create/destroy items when get system hooks from Gitlab, without any manual settings. Only supports MAVEN projects now.</description>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -33,9 +33,9 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:ssh://github.com/jenkinsci/Job-AutoCreator.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/Job-AutoCreator.git</developerConnection>
-		<url>https://github.com/jenkinsci/Job-AutoCreator</url>
+		<connection>scm:git:ssh://github.com/jenkinsci/gitlab-automatic-item-creator.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/jenkinsci/gitlab-automatic-item-creator.git</developerConnection>
+		<url>https://github.com/jenkinsci/gitlab-automatic-item-creator</url>
 	</scm>
 
 	<repositories>

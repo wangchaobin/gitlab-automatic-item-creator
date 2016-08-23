@@ -3,6 +3,5 @@
   This view is used to render the installed plugins page.
 -->
 <div>
-  Jenkins Gitlab System Hook Plugin Job-AutoCreator. 
-  Automaticlly create/destroy jobs when get hooks from Gitlab, without any manual settings.
+  Automatically create/destroy items when get system hooks from Gitlab, without any manual settings.
 </div>
