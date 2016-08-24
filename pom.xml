@@ -9,13 +9,14 @@
 		<version>1.643</version>
 		<relativePath />
 	</parent>
+	
 	<artifactId>gitlab-automatic-item-creator</artifactId>
 	<version>1.0.0</version>
 	<packaging>hpi</packaging>
-
 	<name>Gitlab Automatic Item Creator</name>
 	<url>https://wiki.jenkins-ci.org/display/JENKINS/gitlab-automatic-item-creator</url>
-	<description>Automatically create/destroy items when get system hooks from Gitlab, without any manual settings. Only supports MAVEN projects now.</description>
+	<description>Automatically create/destroy items when get system hooks from Gitlab, without any configurations.</description>
+	
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -43,6 +44,7 @@
 			<url>http://repo.jenkins-ci.org/public/</url>
 		</repository>
 	</repositories>
+	
 	<pluginRepositories>
 		<pluginRepository>
 			<id>repo.jenkins-ci.org</id>
