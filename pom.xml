@@ -9,8 +9,7 @@
 		<version>1.643</version>
 		<relativePath />
 	</parent>
-	<groupId>com.wang.app</groupId>
-	<artifactId>mirana</artifactId>
+	<artifactId>gitlab-automatic-item-creator</artifactId>
 	<version>1.0.0</version>
 	<packaging>hpi</packaging>
 
